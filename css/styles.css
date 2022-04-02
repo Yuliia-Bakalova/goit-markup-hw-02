@@ -1,10 +1,118 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
+    background-color: #FFFFFF;
+   
 }
 .logo {
-    font-family: 'Raleway' sans-serif;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    color: #2196F3;
+}
+.header {
+    background-color: #fff;
+    cursor: pointer;
+}
+.main-section {
+    background-color: #2F303A;
+    color: #fff;
+}
+.main-title {
+font-size: 44px;
+line-height: 1.36;
+}
+.nav-link {
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+}
+.nav-link-current {
+    font-size: 14px;
+    line-height: 1.14;
+    color: #2196F3;
+}
+.mail,
+.phone {
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+}
+.mail:hover {
+    color: #2196F3;
+}
+.button {
+    font-size: 16px;
+    line-height: 1.88;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.features-title {
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+}
+.features-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 1.17;
+    color: #212121;
+}
+.our-team-section {
+    background-color: #F5F4FA;;
+}
+
+.our-team {
+    background-color: #FFFFFF;
+}
+.team-title {
+    font-size: 16px;
+    line-height: 1.19;
+    color: #212121;
+}
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    color: #757575;
+}
+.footer {
+    background: #2F303A;
+}
+.location {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+}
+.footer-mail,
+.footer-phone {
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+.portfolio-button {
+    background: #F5F4FA;
+    color: #212121;
+    font-size: 16px;
+    line-height: 1.63; 
+}
+.portfolio-button:hover {
+    color: #FFFFFF;
+    background: #2196F3;
+}
+.our-portfolio-title {
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+}
+.our-portfolio-text {
+    font-size: 16px;
+    line-height: 1.88;
+    color: #757575;
+
 }
